@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.link {
+    @apply inline-flex items-center border-b-4 px-1 pt-1 text-sm font-medium
+}
+.inactive-link {
+    @apply border-transparent text-gray-500 hover:border-black hover:text-gray-700
+}
+.active-link {
+    @apply border-[#e9ad85] text-gray-900;
+}

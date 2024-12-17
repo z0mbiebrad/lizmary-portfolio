@@ -1,6 +1,19 @@
 <nav class="bg-white shadow" x-data="{ open:false }">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-between">
+            <div class="flex shrink-0 items-center">
+                <a 
+                    href="/"
+                    class="flex items-center gap-x-2"
+                >
+                    <img 
+                        class="h-12 w-auto" 
+                        src="{{ asset('images/camera.png') }}"
+                        alt="Your Company"
+                    >   
+                    Lizmary Evans
+                </a>
+            </div>
             <div class="-ml-2 mr-2 flex items-center md:hidden">
                 <!-- Mobile menu button -->
                 <button 
@@ -47,39 +60,26 @@
                     </svg>
                 </button>
             </div>
-            <div class="flex shrink-0 items-center">
-                <a 
-                    href="/"
-                    class="flex items-center gap-x-2"
-                >
-                    <img 
-                        class="h-12 w-auto" 
-                        src="{{ asset('images/camera.png') }}"
-                        alt="Your Company"
-                    >   
-                    Lizmary Evans
-                </a>
-            </div>
             <div class="hidden md:ml-6 md:flex md:space-x-8">
                 <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
                 <a 
                     href="{{ route('about') }}"
-                    class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
-                    {{ $route === 'about' ? 'border-green-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-indigo-300 hover:text-gray-700' }}"
+                    class="link
+                    {{ $route === 'about' ? 'active-link' : 'inactive-link' }}"
                 >
                     About
                 </a>
                 <a 
                     href="{{ route('meet') }}"
-                    class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
-                    {{ $route === 'meet' ? 'border-green-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-indigo-300 hover:text-gray-700' }}"
+                    class="link
+                    {{ $route === 'meet' ? 'active-link' : 'inactive-link' }}"
                 >
                     Meet The Writer
                 </a>
                 <a 
                     href="{{ route('contact') }}"
-                    class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
-                    {{ $route === 'contact' ? 'border-green-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-indigo-300 hover:text-gray-700' }}"
+                    class="link
+                    {{ $route === 'contact' ? 'active-link' : 'inactive-link' }}"
                 >
                     Contact Me
                 </a>
