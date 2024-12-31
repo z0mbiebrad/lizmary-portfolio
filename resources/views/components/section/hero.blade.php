@@ -21,13 +21,13 @@
             <div class="mx-auto mt-10 flex max-w-none justify-center">
                 <div class="sm:mx-auto inline-grid grid-cols-2 gap-5 space-y-0">
                     <a 
-                        href="#"
+                        href="{{ route('meet') }}"
                         class="flex items-center justify-center rounded-md border border-transparent shadow-black px-4 py-3 text-base font-medium text-black shadow-sm bg-[#e9ad85] hover:bg-white/85 sm:px-8"
                     >
                         Meet the Writer
                     </a>
                     <a 
-                        href="#"
+                        href="{{ route('contact') }}"
                         class="flex items-center justify-center rounded-md border border-transparent shadow-black px-4 py-3 text-base font-medium text-black shadow-sm bg-[#e9ad85] hover:bg-white/85 sm:px-8"
                     >
                         Contact Me

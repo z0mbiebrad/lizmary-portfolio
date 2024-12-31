@@ -1,6 +1,6 @@
 <div class="relative isolate overflow-hidden bg-gray-900 ">
-    <img src="{{ asset('images/lizmary.jpg') }}"
-        alt="" class="absolute inset-0 -z-10 size-full object-cover object-top">
+    <img src="{{ asset('images/pen.jpg') }}"
+        alt="" class="absolute inset-0 -z-10 size-full object-cover">
     <div class="mx-auto px-6 lg:px-8 bg-black/80 py-32">
         <div class="mx-auto max-w-2xl lg:mx-0">
             <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Meet The Writer</h2>

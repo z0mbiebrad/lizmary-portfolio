@@ -1,13 +1,13 @@
 <div class="relative isolate bg-white">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
-            <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg bg-white/80 relative">
+            <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg bg-white/85 relative">
                 <img src="{{ asset('images/computer-girl.png') }}" alt=""
                     class="absolute inset-0 -z-10 size-full xs:object-contain object-cover mt-12">
                 <h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hi: I'm Lizmary
                 </h2>
                 <p class="mt-6 text-lg/8 text-gray-600">I would love to collaborate with you! Please reach out with any projects, oppurtunites, or just to say hi!</p>
-                <dl class="mt-10 space-y-4 text-base/7 text-gray-600">
+                <dl class="mt-10 space-y-4 text-base/7 text-gray-600 font-bold">
                     <div class="flex gap-x-4">
                         <dt class="flex-none">
                             <span class="sr-only">Address</span>
